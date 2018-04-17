@@ -1,4 +1,4 @@
-## administrate-enumerate
+## administrate-field-enumerate
 
 A plugin to show [enumerate_it](https://github.com/lucascaton/enumerate_it) attributes in [Administrate](https://github.com/thoughtbot/administrate).
 
