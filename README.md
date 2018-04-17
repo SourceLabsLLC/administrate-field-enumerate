@@ -16,7 +16,25 @@ In your terminal execute:
 $ bundle install
 ```
 
-## Usage
+## Usage example
+```
+# app/enumerations/role_type.rb
+class RoleType < EnumerateIt::Base
+  associate_values(
+    :contributor,
+    :editor,
+    :admin,
+    :super_admin 
+  )
+end
+
+# app/dashboards/user_dashboard.rb
+ATTRIBUTE_TYPES = {
+  ...
+  role: Field::Enumerate
+  ...
+}
+```
 
 ## Contributing
 
