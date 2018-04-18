@@ -1,4 +1,5 @@
 require 'administrate/field/base'
+require 'enumerate_it'
 require 'rails'
 
 module Administrate
