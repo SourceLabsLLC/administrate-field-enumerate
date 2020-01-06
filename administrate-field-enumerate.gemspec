@@ -16,5 +16,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'administrate'
   s.add_dependency 'enumerate_it'
-  s.add_dependency 'rails', '>= 4.2', '<= 6.0.0'
+  s.add_dependency 'rails', '>= 4.2', '<= 6.0.2.1'
 end
