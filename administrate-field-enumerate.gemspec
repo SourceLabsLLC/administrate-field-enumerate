@@ -2,7 +2,7 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name = 'administrate-field-enumerate'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.authors = ['Jônatas Rancan', 'Andrei Bondarev']
   s.email = ['hello@sourcelabs.io']
   s.homepage = 'https://github.com/SourceLabsLLC/administrate-field-enumerate'
@@ -16,5 +16,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'administrate'
   s.add_dependency 'enumerate_it'
-  s.add_dependency 'rails', '>= 4.2', '<= 6.0.2.1'
+  s.add_dependency 'rails', '>= 4.2', '< 7.0'
 end
